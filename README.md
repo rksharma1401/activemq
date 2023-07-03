@@ -96,3 +96,5 @@ Then build for multiple platforms:
 
 * `docker buildx build --push --platform linux/arm64,linux/amd64 --tag symptoma/activemq:5.18.0 .`
 * `docker buildx build --push --platform linux/arm64,linux/amd64 --tag symptoma/activemq:latest .`
+
+* 
