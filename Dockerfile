@@ -17,7 +17,7 @@ RUN apk add --update curl && \
     chown -h activemq:activemq $ACTIVEMQ_HOME
 
 #EXPOSE 1883 5672 8161 61613 61614 61616
-EXPOSE 5672
+EXPOSE 8161
 COPY entrypoint.sh /
 RUN chmod +x /entrypoint.sh
 
